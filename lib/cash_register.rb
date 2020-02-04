@@ -38,7 +38,7 @@ class CashRegister
   end
   
   def items
-     @purchase_list.inspect
+     puts @purchase_list
   end
   def void_last_transaction
     @total = @total - (@price * @quantity)
