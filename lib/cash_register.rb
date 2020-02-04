@@ -1,7 +1,7 @@
 class Cash_Regiter
-  initialize(employee_discount = 20)
+  initialize(employee_discount)
     @total = 0 
-    @employee_discount = 20
+    @employee_discount
     @purchase_list = {}
   end
   
@@ -15,6 +15,8 @@ class Cash_Regiter
   end
   
   def apply_discount
+    if employee_discount == 0 
+      puts ""
     a = @employee_discount.to_string
     a = ".#{a}"
     a.to_i 
