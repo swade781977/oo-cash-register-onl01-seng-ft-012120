@@ -1,5 +1,5 @@
 class CashRegister
-  def initialize(employee_discount = 0)
+  def initialize(employee_discount = 20)
     @total = 0 
     @employee_discount = employee_discount
     @purchase_list = []
