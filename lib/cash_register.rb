@@ -1,3 +1,3 @@
 class Cash_Regiter
-  initialize()
+  initialize(dis)
 end
