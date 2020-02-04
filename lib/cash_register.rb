@@ -19,7 +19,7 @@ class CashRegister
   end
   
   def discount
-    if employee_discount == 0 
+    if @employee_discount == 0 
       puts "There is no discount to apply."
     end
     a = @employee_discount.to_string
