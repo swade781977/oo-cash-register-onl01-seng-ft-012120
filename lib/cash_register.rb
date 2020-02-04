@@ -26,6 +26,7 @@ class CashRegister
   def apply_discount
     if @employee_discount == 0 
       return "There is no discount to apply."
+      break
     end
     a = @employee_discount/100.0  
     b = @total * a
