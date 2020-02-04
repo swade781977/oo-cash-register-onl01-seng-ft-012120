@@ -27,7 +27,7 @@ class CashRegister
     if @employee_discount == 0 
       puts "There is no discount to apply."
     end
-    a = @employee_discount/100  
+    a = @employee_discount/100.0  
     @total = @total - (@total * a)
     puts "After the discount, the total comes to #{@total}."
     binding.pry
