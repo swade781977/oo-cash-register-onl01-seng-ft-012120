@@ -26,4 +26,6 @@ class Cash_Regiter
   end
   def items
      puts "#{purchase_list}"
+  end
+  def 
 end
