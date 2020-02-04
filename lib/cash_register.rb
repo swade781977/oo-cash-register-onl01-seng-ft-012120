@@ -1,7 +1,7 @@
 class Cash_Regiter
-  initialize(employee_discount)
+  initialize(employee_discount = 0)
     @total = 0 
-    @employee_discount
+    @employee_discount = employee_discount
     @purchase_list = []
   end
   
