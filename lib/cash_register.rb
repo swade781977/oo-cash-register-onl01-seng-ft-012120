@@ -9,7 +9,7 @@ class Cash_Regiter
     @total 
   end
   
-  def add_item(title, price)
+  def add_item(title, price, quantity = 1)
     @purchase_list.push(title)
     @total += price
   end
