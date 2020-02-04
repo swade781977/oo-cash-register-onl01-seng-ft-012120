@@ -25,5 +25,5 @@ class Cash_Regiter
     puts "After the discount, the total comes to #{@total}."
   end
   def items
-    purchase_list
+     puts "#{purchase_list}"
 end
