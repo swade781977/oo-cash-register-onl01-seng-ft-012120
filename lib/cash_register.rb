@@ -3,6 +3,7 @@ class Cash_Regiter
     @total = 0 
     @employee_discount = 20
     @purchase_list = {}
+    @discount = 0
   end
   
   def total
@@ -18,7 +19,7 @@ class Cash_Regiter
     a = @employee_discount.to_string
     a = ".#{a}"
     a.to_i 
-    @total = @total - (@total * a)
+    @discount = 
     puts "After the discount, the total comes to #{@total}."
   end
 end
