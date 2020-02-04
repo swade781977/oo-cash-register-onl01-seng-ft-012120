@@ -1,3 +1,4 @@
+require 'pry'
 class CashRegister
   def initialize(employee_discount = 20)
     @total = 0 
@@ -5,6 +6,7 @@ class CashRegister
     @purchase_list = []
     @price = 0
     @quantity = 0 
+    binding.pry
   end
   
   def total
