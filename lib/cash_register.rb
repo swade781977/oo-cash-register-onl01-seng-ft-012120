@@ -7,6 +7,7 @@ class CashRegister
     @price = 0
     @quantity = 0 
   end
+  attr_accessor :total, :employee_discount, :purchase_list, :price, :quantity
   def discount
     @employee_discount
   end
