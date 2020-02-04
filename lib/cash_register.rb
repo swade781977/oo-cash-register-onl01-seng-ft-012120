@@ -38,7 +38,7 @@ class CashRegister
   end
   
   def items
-     puts @purchase_list
+     p @purchase_list
   end
   def void_last_transaction
     @total = @total - (@price * @quantity)
