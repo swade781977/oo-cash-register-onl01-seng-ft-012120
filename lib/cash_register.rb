@@ -24,4 +24,6 @@ class Cash_Regiter
     @total = @total - (@total * a)
     puts "After the discount, the total comes to #{@total}."
   end
+  def items
+    purchase_list
 end
