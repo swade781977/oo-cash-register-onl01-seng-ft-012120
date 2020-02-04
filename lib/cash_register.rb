@@ -28,8 +28,8 @@ class CashRegister
       puts "There is no discount to apply."
     end
     a = @employee_discount/100.0  
-    b = @total - (@total * a)
-    @total = b
+    b = @total * a
+    @total = @total - b
     puts "After the discount, the total comes to #{@total}."
   end
   
