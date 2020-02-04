@@ -19,6 +19,6 @@ class Cash_Regiter
     a = ".#{a}"
     a.to_i 
     @total = @total - (@total * a)
-    puts "After the discount the total "
+    puts "After the discount, the total comes to #{@total}"
   end
 end
