@@ -6,7 +6,6 @@ class CashRegister
     @purchase_list = []
     @price = 0
     @quantity = 0 
-    binding.pry
   end
   
   def total
