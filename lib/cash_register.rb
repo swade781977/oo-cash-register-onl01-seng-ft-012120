@@ -1,4 +1,4 @@
-class Cash_Regiter
+class CashRegiter
   def initialize(employee_discount = 0)
     @total = 0 
     @employee_discount = employee_discount
