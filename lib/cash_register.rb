@@ -3,4 +3,10 @@ class Cash_Regiter
     @total = 0 
     @employee_discount = 20
   end
+  
+  def total
+    @total 
+  end
+  
+  def
 end
