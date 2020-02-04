@@ -31,6 +31,7 @@ class CashRegister
     @total = @total - (@total * a)
     puts "After the discount, the total comes to #{@total}."
   end
+  binding.pry
   def items
      puts "#{purchase_list}"
   end
