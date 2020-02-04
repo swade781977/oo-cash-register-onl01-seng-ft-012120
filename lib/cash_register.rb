@@ -15,4 +15,9 @@ class Cash_Regiter
   end
   
   def apply_discount
+    a = @employee_discount.to_string
+    a = ".#{a}"
+    a.to_i 
+    @total = @total - (@total * a)
+  end
 end
