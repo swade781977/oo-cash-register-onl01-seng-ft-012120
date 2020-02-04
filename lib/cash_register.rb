@@ -24,7 +24,7 @@ class CashRegister
     end
     a = @employee_discount.to_s 
     a = ".#{a}"
-    a.to_i 
+    a.to_f
     @total = @total - (@total * a)
     puts "After the discount, the total comes to #{@total}."
   end
