@@ -18,7 +18,7 @@ class CashRegister
     @total += price * quantity
   end
   
-  def apply_discount
+  def discount
     if employee_discount == 0 
       puts "There is no discount to apply."
     end
