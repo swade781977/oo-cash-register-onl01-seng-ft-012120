@@ -10,7 +10,7 @@ class Cash_Regiter
   end
   
   def add_item(title, price, quantity = 1)
-    @purchase_list.
-    @total += price
+    @purchase_list[title => quantity]
+    @total += price * quantity
   end
 end
