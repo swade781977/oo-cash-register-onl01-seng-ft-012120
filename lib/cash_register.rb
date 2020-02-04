@@ -1,6 +1,6 @@
 require 'pry'
 class CashRegister
-  def initialize(employee_discount = 20)
+  def initialize(employee_discount)
     @total = 0 
     @employee_discount = employee_discount
     @purchase_list = []
