@@ -2,7 +2,7 @@ class Cash_Regiter
   initialize(employee_discount)
     @total = 0 
     @employee_discount
-    @purchase_list = {}
+    @purchase_list = []
   end
   
   def total
@@ -10,7 +10,7 @@ class Cash_Regiter
   end
   
   def add_item(title, price, quantity = 1)
-    @purchase_list[title => quantity]
+    @purchase_list.push(title)
     @total += price * quantity
   end
   
