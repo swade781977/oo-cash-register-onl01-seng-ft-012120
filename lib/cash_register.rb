@@ -8,5 +8,7 @@ class Cash_Regiter
     @total 
   end
   
-  def
+  def add_item()
+    purchase_list = []
+  end
 end
