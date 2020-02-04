@@ -3,6 +3,7 @@ class Cash_Regiter
     @total = 0 
     @employee_discount = employee_discount
     @purchase_list = []
+    @price = 0
   end
   
   def total
@@ -11,6 +12,7 @@ class Cash_Regiter
   
   def add_item(title, price, quantity = 1)
     @purchase_list.push(title)
+    @price = price
     @total += price * quantity
   end
   
@@ -27,5 +29,7 @@ class Cash_Regiter
   def items
      puts "#{purchase_list}"
   end
-  def 
+  def void_last_transaction
+    
+  end
 end
