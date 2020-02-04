@@ -13,4 +13,6 @@ class Cash_Regiter
     @purchase_list[title => quantity]
     @total += price * quantity
   end
+  
+  def apply_discount
 end
